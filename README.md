@@ -116,4 +116,40 @@ Writing objects: 100% (3/3), 380 bytes, done.
 Total 3 (delta 1), reused 0 (delta 0)
 To https://github.com/jmjimenezislas/hello-world/
    d4b4f72..deb2a74  master -> master
+$ git push https://github.com/jmjimenezislas/hello-world/
+Username for 'https://github.com': jmjimenezislas  
+Password for 'https://jmjimenezislas@github.com': 
+Counting objects: 5, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 380 bytes, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To https://github.com/jmjimenezislas/hello-world/
+   d4b4f72..deb2a74  master -> master
+$ git status
+# On branch master
+# Your branch is ahead of 'origin/master' by 2 commits.
+#
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   README.md
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+$ git commit -m "README.md changed for adding command line history" -a
+[master 7c6a3a6] README.md changed for adding command line history
+ 1 file changed, 86 insertions(+), 1 deletion(-)
+$ git push https://github.com/jmjimenezislas/hello-world/
+Username for 'https://github.com': jmjimenezislas                      
+Password for 'https://jmjimenezislas@github.com': 
+Counting objects: 5, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 2.03 KiB, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/jmjimenezislas/hello-world/
+   deb2a74..7c6a3a6  master -> master
 </code>
+
+Obviously <em>command line history has been "a bit bigger than shown". The "git push" function has been called at least once more. To show this last comment.</em>
