@@ -155,3 +155,7 @@ To https://github.com/jmjimenezislas/hello-world/<br/>
 </pre>
 
 Obviously <em>command line history</em> has been "a bit bigger than shown". The "git push" function has been called at least once more to show this last comment.
+
+<hr/>
+
+Another amendment: now I preview changes through git-cola and/or giggle.
