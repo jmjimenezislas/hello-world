@@ -41,115 +41,117 @@ Some <em>html</em> changes have been made to improve appearance.
 
 Command line history:
 
+<pre>
 <code>jmjimenezislas@debian-netbook:~/Documents/informática/GitHub/Git/hello-world$ cat README.md<br/>
-<span class="toRed" color="red"># hello-world
-My first repository on GitHub.
-
-This repository has been created in order to test how GitHub works. No "great expectations" shoud be expected!!!
-
-I like :coffee:, :books: and :computer:.
-
-Molina de Segura (Murcia, Spain).</span>
-$ git pull https://github.com/jmjimenezislas/hello-world/
-From https://github.com/jmjimenezislas/hello-world
- * branch            HEAD       -> FETCH_HEAD
-Already up-to-date.
-$ ls
-hello-world
-$ cd hello-world
-$ ls -la
-total 36
-drwxr-xr-x 3 jmjimenezislas jmjimenezislas  4096 gen 18 12:28 .
-drwxr-xr-x 3 jmjimenezislas jmjimenezislas  4096 gen 18 12:29 ..
-drwxr-xr-x 8 jmjimenezislas jmjimenezislas  4096 gen 18 12:30 .git
--rw-r--r-- 1 jmjimenezislas jmjimenezislas 18027 gen 18 11:32 LICENSE
--rw-r--r-- 1 jmjimenezislas jmjimenezislas  2151 gen 18 12:28 README.md
-$ git status
-# On branch master
-# Changes not staged for commit:
-#   (use "git add <file>..." to update what will be committed)
-#   (use "git checkout -- <file>..." to discard changes in working directory)
-#
-#	modified:   README.md
-#
-no changes added to commit (use "git add" and/or "git commit -a")
-$ git commit -m "README.md changed" -a
-[master d4b4f72] README.md changed
- 1 file changed, 27 insertions(+), 1 deletion(-)
-$ git status
-# On branch master
-# Your branch is ahead of 'origin/master' by 1 commit.
-#
-nothing to commit (working directory clean)
-$ git push https://github.com/jmjimenezislas/hello-world/
-Username for 'https://github.com': jmjimenezislas
-Password for 'https://jmjimenezislas@github.com': 
-Counting objects: 5, done.
-Delta compression using up to 2 threads.
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 1.29 KiB, done.
-Total 3 (delta 0), reused 0 (delta 0)
-To https://github.com/jmjimenezislas/hello-world/
-   10ce8b9..d4b4f72  master -> master
-$ git status
-# On branch master
-# Your branch is ahead of 'origin/master' by 1 commit.
-#
-# Changes not staged for commit:
-#   (use "git add <file>..." to update what will be committed)
-#   (use "git checkout -- <file>..." to discard changes in working directory)
-#
-#	modified:   README.md
-#
-no changes added to commit (use "git add" and/or "git commit -a")
-$ git commit -m "README.md changed for improving preview" -a
-[master deb2a74] README.md changed for improving preview
- 1 file changed, 9 insertions(+), 9 deletions(-)
+&#35; hello-world<br/><!-- #: &#35;-->
+My first repository on GitHub.<br/>
+<br/>
+This repository has been created in order to test how GitHub works. No "great expectations" shoud be expected!!!<br/>
+<br/>
+I like :coffee:, :books: and :computer:.<br/>
+<br/>
+Molina de Segura (Murcia, Spain).<br/>
+$ git pull https://github.com/jmjimenezislas/hello-world/<br/>
+From https://github.com/jmjimenezislas/hello-world<br/>
+&nbsp;&#42; branch            HEAD       -> FETCH_HEAD<br/><!-- *: &#42; -->
+Already up-to-date.<br/>
+$ ls<br/>
+hello-world<br/>
+$ cd hello-world<br/>
+$ ls -la<br/>
+total 36<br/>
+drwxr-xr-x 3 jmjimenezislas jmjimenezislas  4096 gen 18 12:28 .<br/>
+drwxr-xr-x 3 jmjimenezislas jmjimenezislas  4096 gen 18 12:29 ..<br/>
+drwxr-xr-x 8 jmjimenezislas jmjimenezislas  4096 gen 18 12:30 .git<br/>
+-rw-r--r-- 1 jmjimenezislas jmjimenezislas 18027 gen 18 11:32 LICENSE<br/>
+-rw-r--r-- 1 jmjimenezislas jmjimenezislas  2151 gen 18 12:28 README.md<br/>
+$ git status<br/>
+&#35; On branch master<br/>
+&#35; Changes not staged for commit:<br/>
+&#35;   (use "git add <file>..." to update what will be committed)<br/>
+&#35;   (use "git checkout -- <file>..." to discard changes in working directory)<br/>
+&#35;<br/>
+&#35;	modified:   README.md<br/>
+&#35;<br/>
+no changes added to commit (use "git add" and/or "git commit -a")<br/>
+$ git commit -m "README.md changed" -a<br/>
+[master d4b4f72] README.md changed<br/>
+ 1 file changed, 27 insertions(+), 1 deletion(-)<br/>
+$ git status<br/>
+&#35; On branch master<br/>
+&#35; Your branch is ahead of 'origin/master' by 1 commit.<br/>
+&#35;<br/>
+nothing to commit (working directory clean)<br/>
+$ git push https://github.com/jmjimenezislas/hello-world/<br/>
+Username for 'https://github.com': jmjimenezislas<br/>
+Password for 'https://jmjimenezislas@github.com':<br/>
+Counting objects: 5, done.<br/>
+Delta compression using up to 2 threads.<br/>
+Compressing objects: 100% (3/3), done.<br/>
+Writing objects: 100% (3/3), 1.29 KiB, done.<br/>
+Total 3 (delta 0), reused 0 (delta 0)<br/>
+To https://github.com/jmjimenezislas/hello-world/<br/>
+   10ce8b9..d4b4f72  master -> master<br/>
+$ git status<br/>
+&#35; On branch master<br/>
+&#35; Your branch is ahead of 'origin/master' by 1 commit.<br/>
+&#35;<br/>
+&#35; Changes not staged for commit:<br/>
+&#35;   (use "git add <file>..." to update what will be committed)<br/>
+&#35;   (use "git checkout -- <file>..." to discard changes in working directory)<br/>
+&#35;<br/>
+&#35;	modified:   README.md<br/>
+&#35;<br/>
+no changes added to commit (use "git add" and/or "git commit -a")<br/>
+$ git commit -m "README.md changed for improving preview" -a<br/>
+[master deb2a74] README.md changed for improving preview<br/>
+ 1 file changed, 9 insertions(+), 9 deletions(-)<br/>
 jmjimenezislas@debian-netbook:~/Documents/informática/GitHub/Git/jmjimenezislas/hello-
-world$ git push https://github.com/jmjimenezislas/hello-world/
-Username for 'https://github.com': jmjimenezislas  
-Password for 'https://jmjimenezislas@github.com': 
-Counting objects: 5, done.
-Delta compression using up to 2 threads.
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 380 bytes, done.
-Total 3 (delta 1), reused 0 (delta 0)
-To https://github.com/jmjimenezislas/hello-world/
-   d4b4f72..deb2a74  master -> master
-$ git push https://github.com/jmjimenezislas/hello-world/
-Username for 'https://github.com': jmjimenezislas  
-Password for 'https://jmjimenezislas@github.com': 
-Counting objects: 5, done.
-Delta compression using up to 2 threads.
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 380 bytes, done.
-Total 3 (delta 1), reused 0 (delta 0)
-To https://github.com/jmjimenezislas/hello-world/
-   d4b4f72..deb2a74  master -> master
-$ git status
-# On branch master
-# Your branch is ahead of 'origin/master' by 2 commits.
-#
-# Changes not staged for commit:
-#   (use "git add <file>..." to update what will be committed)
-#   (use "git checkout -- <file>..." to discard changes in working directory)
-#
-#	modified:   README.md
-#
-no changes added to commit (use "git add" and/or "git commit -a")
-$ git commit -m "README.md changed for adding command line history" -a
-[master 7c6a3a6] README.md changed for adding command line history
- 1 file changed, 86 insertions(+), 1 deletion(-)
-$ git push https://github.com/jmjimenezislas/hello-world/
-Username for 'https://github.com': jmjimenezislas                      
-Password for 'https://jmjimenezislas@github.com': 
-Counting objects: 5, done.
-Delta compression using up to 2 threads.
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (3/3), 2.03 KiB, done.
-Total 3 (delta 0), reused 0 (delta 0)
-To https://github.com/jmjimenezislas/hello-world/
-   deb2a74..7c6a3a6  master -> master
+world$ git push https://github.com/jmjimenezislas/hello-world/<br/>
+Username for 'https://github.com': jmjimenezislas<br/>
+Password for 'https://jmjimenezislas@github.com':<br/> 
+Counting objects: 5, done.<br/>
+Delta compression using up to 2 threads.<br/>
+Compressing objects: 100% (3/3), done.<br/>
+Writing objects: 100% (3/3), 380 bytes, done.<br/>
+Total 3 (delta 1), reused 0 (delta 0)<br/>
+To https://github.com/jmjimenezislas/hello-world/<br/>
+   d4b4f72..deb2a74  master -> master<br/>
+$ git push https://github.com/jmjimenezislas/hello-world/<br/>
+Username for 'https://github.com': jmjimenezislas<br/>
+Password for 'https://jmjimenezislas@github.com':<br/> 
+Counting objects: 5, done.<br/>
+Delta compression using up to 2 threads.<br/>
+Compressing objects: 100% (3/3), done.<br/>
+Writing objects: 100% (3/3), 380 bytes, done.<br/>
+Total 3 (delta 1), reused 0 (delta 0)<br/>
+To https://github.com/jmjimenezislas/hello-world/<br/>
+   d4b4f72..deb2a74  master -> master<br/>
+$ git status<br/>
+&#35; On branch master<br/>
+&#35; Your branch is ahead of 'origin/master' by 2 commits.<br/>
+&#35;<br/>
+&#35; Changes not staged for commit:<br/>
+&#35;   (use "git add <file>..." to update what will be committed)<br/>
+&#35;   (use "git checkout -- <file>..." to discard changes in working directory)<br/>
+&#35;<br/>
+&#35;	modified:   README.md<br/>
+&#35;<br/>
+no changes added to commit (use "git add" and/or "git commit -a")<br/>
+$ git commit -m "README.md changed for adding command line history" -a<br/>
+[master 7c6a3a6] README.md changed for adding command line history<br/>
+ 1 file changed, 86 insertions(+), 1 deletion(-)<br/>
+$ git push https://github.com/jmjimenezislas/hello-world/<br/>
+Username for 'https://github.com': jmjimenezislas<br/> 
+Password for 'https://jmjimenezislas@github.com':<br/>
+Counting objects: 5, done.<br/>
+Delta compression using up to 2 threads.<br/>
+Compressing objects: 100% (3/3), done.<br/>
+Writing objects: 100% (3/3), 2.03 KiB, done.<br/>
+Total 3 (delta 0), reused 0 (delta 0)<br/>
+To https://github.com/jmjimenezislas/hello-world/<br/>
+   deb2a74..7c6a3a6  master -> master<br/>
 </code>
+</pre>
 
-Obviously <em>command line history has been "a bit bigger than shown". The "git push" function has been called at least once more. To show this last comment.</em>
+Obviously <em>command line history</em> has been "a bit bigger than shown". The "git push" function has been called at least once more to show this last comment.
